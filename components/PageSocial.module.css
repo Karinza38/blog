@@ -80,10 +80,10 @@
 }
 
 .twitter .actionBgPane {
-  background: #2795e9;
+  background: #1DA1F2;
 }
 .twitter:hover {
-  border-color: #2795e9;
+  border-color: #1DA1F2;
 }
 
 .mastodon .actionBgPane {
@@ -101,10 +101,10 @@
 }
 
 .github .actionBgPane {
-  background: #c9510c;
+  background: #bd2c00;
 }
 .github:hover {
-  border-color: #c9510c;
+  border-color: #bd2c00;
 }
 
 .youtube .actionBgPane {
