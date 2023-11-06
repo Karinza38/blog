@@ -58,5 +58,11 @@ export default siteConfig({
       title: 'Talks',
       pageId: '24e24372e8bb465a802148a47cec2404'
     }
-  ]
+  ],
+
+  // uncomment gisucs config to enable gisucs, get these keys from https://giscus.app/
+  giscusRepo: 'matkoch/blog',
+  giscusRepoId: 'R_kgDOKpuyfQ',
+  giscusCategory: 'Comments',
+  giscusCategoryId: 'DIC_kwDOKpuyfc4Catcs'
 })
