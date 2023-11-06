@@ -1,6 +1,7 @@
 import * as React from 'react'
 
 import { FaEnvelopeOpenText } from '@react-icons/all-files/fa/FaEnvelopeOpenText'
+import { FaRss } from '@react-icons/all-files/fa/FaRss'
 import { FaGithub } from '@react-icons/all-files/fa/FaGithub'
 import { FaLinkedin } from '@react-icons/all-files/fa/FaLinkedin'
 import { FaMastodon } from '@react-icons/all-files/fa/FaMastodon'
@@ -108,6 +109,18 @@ export const FooterImpl: React.FC = () => {
             rel='noopener noreferrer'
           >
             <FaLinkedin />
+          </a>
+        )}
+
+        {config.rss && (
+          <a
+            className={styles.rss}
+            href={`${config.rss}`}
+            title={`RSS`}
+            target='_blank'
+            rel='noopener noreferrer'
+          >
+            <FaRss />
           </a>
         )}
 

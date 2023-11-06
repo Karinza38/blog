@@ -121,6 +121,13 @@
   border-color: #00ab6c;
 }
 
+.rss .actionBgPane {
+  background: #FF9A00;
+}
+.rss:hover {
+  border-color: #FF9A00;
+}
+
 .newsletter .actionBgPane {
   background: #777777;
 }

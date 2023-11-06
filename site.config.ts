@@ -21,7 +21,8 @@ export default siteConfig({
   github: 'matkoch',
   linkedin: 'matthias-koch-jb',
   mastodon: 'https://dotnet.social/@matkoch', // optional mastodon profile URL, provides link verification
-  newsletter: 'https://shinycodes.net/feed', // optional newsletter URL
+  rss: 'https://shinycodes.net/feed', // optional mastodon profile URL, provides link verification
+  // newsletter: '#', // optional newsletter URL
   // youtube: '#', // optional youtube channel name or `channel/UCGbXXXXXXXXXXXXXXXXXXXXXX`
 
   // default notion icon and cover images for site-wide consistency (optional)

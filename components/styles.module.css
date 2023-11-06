@@ -113,6 +113,10 @@
   color: #0077b5;
 }
 
+.rss:hover {
+  color: #FF9A00;
+}
+
 .newsletter:hover {
   color: #777777;
 }
