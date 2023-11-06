@@ -38,6 +38,8 @@ export default siteConfig({
   // environment variables. see the readme for more info
   isRedisEnabled: false,
 
+  isSearchEnabled: false,
+
   // map of notion page IDs to URL paths (optional)
   // any pages defined here will override their default URL paths
   // example:
