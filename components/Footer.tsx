@@ -56,7 +56,7 @@ export const FooterImpl: React.FC = () => {
           <a
             className={styles.twitter}
             href={`https://twitter.com/${config.twitter}`}
-            title={`Twitter @${config.twitter}`}
+            title={`Twitter Profile`}
             target='_blank'
             rel='noopener noreferrer'
           >
@@ -68,7 +68,7 @@ export const FooterImpl: React.FC = () => {
           <a
             className={styles.mastodon}
             href={config.mastodon}
-            title={`Mastodon ${config.getMastodonHandle()}`}
+            title={`Mastodon Profile`}
             rel='me'
           >
             <FaMastodon />
@@ -91,7 +91,7 @@ export const FooterImpl: React.FC = () => {
           <a
             className={styles.github}
             href={`https://github.com/${config.github}`}
-            title={`GitHub @${config.github}`}
+            title={`GitHub Profile`}
             target='_blank'
             rel='noopener noreferrer'
           >
@@ -103,7 +103,7 @@ export const FooterImpl: React.FC = () => {
           <a
             className={styles.linkedin}
             href={`https://www.linkedin.com/in/${config.linkedin}`}
-            title={`LinkedIn ${config.author}`}
+            title={`LinkedIn Profile`}
             target='_blank'
             rel='noopener noreferrer'
           >
@@ -115,7 +115,7 @@ export const FooterImpl: React.FC = () => {
           <a
             className={styles.newsletter}
             href={`${config.newsletter}`}
-            title={`Newsletter ${config.author}`}
+            title={`Newsletter`}
             target='_blank'
             rel='noopener noreferrer'
           >
@@ -127,7 +127,7 @@ export const FooterImpl: React.FC = () => {
           <a
             className={styles.youtube}
             href={`https://www.youtube.com/${config.youtube}`}
-            title={`YouTube ${config.author}`}
+            title={`YouTube Channel`}
             target='_blank'
             rel='noopener noreferrer'
           >
