@@ -386,3 +386,12 @@
 .notion-block-260baa77f1e1428b97fb14ac99c7c385 {
   display: none;
 }
+
+.notion-page-icon {
+  -webkit-filter: drop-shadow(5px 5px 5px rgba(0,0,0,.21));
+  filter: drop-shadow(5px 5px 5px rgba(0,0,0,.21));
+}
+
+.notion-page-icon-hero.notion-page-icon-image {
+  box-shadow: none;
+}
