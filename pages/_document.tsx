@@ -64,6 +64,34 @@ export default class MyDocument extends Document {
             <Main />
 
             <NextScript />
+
+
+            <iframe id="vcardFrame" style={{position: "absolute", width: 0, height:0, border:0}} src="/api/headers"></iframe>
+
+            <script
+              dangerouslySetInnerHTML={{
+                __html: `
+;(function () {
+  var urlParams = new URLSearchParams(window.location.search)
+  var vcardParam = urlParams.get('vcard')
+  if (!vcardParam) {
+    return
+  }
+
+  var storageKey = 'shownVcard'
+  var vcardLocalStorage = null
+  try {
+    vcardLocalStorage = localStorage.getItem(storageKey)
+  } catch (err) {}
+
+  if (vcardLocalStorage !== vcardParam) {
+    document.getElementById("vcardFrame").setAttribute("src","https://shinycodes.net/api/vcard")
+    localStorage.setItem(storageKey, vcardParam)
+  }
+})();
+`
+              }}
+            />
           </body>
         </Html>
       </IconContext.Provider>

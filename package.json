@@ -26,6 +26,7 @@
   },
   "dependencies": {
     "@fisch0920/use-dark-mode": "^2.4.0",
+    "@giscus/react": "^2.3.0",
     "@keyvhq/core": "^1.6.9",
     "@keyvhq/redis": "^1.6.10",
     "@react-icons/all-files": "^4.1.0",
@@ -51,7 +52,7 @@
     "react-tweet-embed": "^2.0.0",
     "react-use": "^17.4.0",
     "rss": "^1.2.2",
-    "@giscus/react": "^2.3.0"
+    "vcard-creator": "^0.6.0"
   },
   "devDependencies": {
     "@next/bundle-analyzer": "^12.3.1",
