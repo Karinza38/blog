@@ -21,6 +21,7 @@ export default siteConfig({
   github: 'matkoch',
   linkedin: 'matthias-koch-jb',
   mastodon: 'https://dotnet.social/@matkoch', // optional mastodon profile URL, provides link verification
+  discord: '376491402768416798',
   rss: 'https://shinycodes.net/feed', // optional mastodon profile URL, provides link verification
   // newsletter: '#', // optional newsletter URL
   // youtube: '#', // optional youtube channel name or `channel/UCGbXXXXXXXXXXXXXXXXXXXXXX`

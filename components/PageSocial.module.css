@@ -121,6 +121,13 @@
   border-color: #00ab6c;
 }
 
+.discord .actionBgPane {
+  background: #7289da;
+}
+.discord:hover {
+  border-color: #7289da;
+}
+
 .rss .actionBgPane {
   background: #FF9A00;
 }

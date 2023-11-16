@@ -2,6 +2,7 @@ import * as React from 'react'
 
 import { FaEnvelopeOpenText } from '@react-icons/all-files/fa/FaEnvelopeOpenText'
 import { FaRss } from '@react-icons/all-files/fa/FaRss'
+import { FaDiscord } from '@react-icons/all-files/fa/FaDiscord'
 import { FaGithub } from '@react-icons/all-files/fa/FaGithub'
 import { FaLinkedin } from '@react-icons/all-files/fa/FaLinkedin'
 import { FaMastodon } from '@react-icons/all-files/fa/FaMastodon'
@@ -109,6 +110,18 @@ export const FooterImpl: React.FC = () => {
             rel='noopener noreferrer'
           >
             <FaLinkedin />
+          </a>
+        )}
+
+        {config.discord && (
+          <a
+            className={styles.discord}
+            href={`https://discord.com/users/${config.discord}`}
+            title={`Discord Profile`}
+            target='_blank'
+            rel='noopener noreferrer'
+          >
+            <FaDiscord />
           </a>
         )}
 

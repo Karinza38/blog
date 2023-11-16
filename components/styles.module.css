@@ -117,6 +117,10 @@
   color: #FF9A00;
 }
 
+.discord:hover {
+  color: #7289da;
+}
+
 .newsletter:hover {
   color: #777777;
 }
