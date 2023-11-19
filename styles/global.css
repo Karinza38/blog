@@ -19,6 +19,7 @@ body {
     'Droid Sans', 'Helvetica Neue', 'Noto Sans', sans-serif;
   font-family: var(--notion-font);
   overflow-x: hidden;
+  background-color: var(--bg-color);
 }
 
 .static-tweet blockquote {
@@ -57,6 +58,6 @@ body {
   background-color: var(--fg-color-1);
 }
 
-::-webkit-scrollbar-track {           
+::-webkit-scrollbar-track {
     background-color: var(--bg-color);
 }
