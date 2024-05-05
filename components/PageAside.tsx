@@ -12,7 +12,7 @@ export const PageAside: React.FC<{
   recordMap: ExtendedRecordMap
   isBlogPost: boolean
 }> = ({ block, recordMap, isBlogPost }) => {
-  if (!block) {
+  if (!block || block) {
     return null
   }
 
